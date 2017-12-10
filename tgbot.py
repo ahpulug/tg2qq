@@ -1,16 +1,12 @@
 #!/usr/bin/env python3
-'''Hello Sweet
-Your Chat ID = 463843364
-Username is not set
+'''telegram bot'''
 
-Your group Chat ID : -264278156
-Title : LUG@AHPU'''
+import logging
 import telegram
 from telegram.ext import CommandHandler
 from telegram.ext import Updater
 from telegram.ext import MessageHandler
 from telegram.ext import filters
-import logging
 
 
 updater = Updater(token="505212073:AAFNhHh4BNCeUUa5GKKZkjpsxr2VJMqbofw")

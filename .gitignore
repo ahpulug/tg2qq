@@ -103,3 +103,4 @@ ENV/
 __pycache__/*
 tmp/*
 *test*
+.vscode/*
