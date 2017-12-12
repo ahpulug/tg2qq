@@ -1,0 +1,740 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AddSched	../qqbotcls.py	/^    def AddSched(self, **triggerArgs):$/;"	kind:member	line:255
+AddSlot	../qqbotcls.py	/^    def AddSlot(self, func):$/;"	kind:member	line:251
+AddWorkerTo	../__init__.py	/^from .mainloop import MainLoop, Put, PutTo, AddWorkerTo$/;"	kind:namespace	line:6
+AddWorkerTo	../mainloop.py	/^    def AddWorkerTo(self, queueLabel, n):$/;"	kind:member	line:55
+AddWorkerTo	../mainloop.py	/^AddWorkerTo = mainLoop.AddWorkerTo$/;"	kind:variable	line:71
+AutoTest	../__init__.py	/^from .common import AutoTest$/;"	kind:namespace	line:5
+AutoTest	../common.py	/^def AutoTest():$/;"	kind:function	line:161
+BYTES2STR	../common.py	/^    BYTES2STR = _PASS$/;"	kind:variable	line:30
+BYTES2STR	../common.py	/^    BYTES2STR = lambda s: s.decode('utf8')$/;"	kind:variable	line:17
+BYTES2STR	../plugins/miniirc.py	/^from qqbot.common import STR2BYTES, BYTES2STR, StartDaemonThread$/;"	kind:namespace	line:13
+BYTES2STR	../qconf.py	/^from qqbot.common import STR2BYTES, BYTES2STR, SYSTEMSTR2STR, STR2SYSTEMSTR$/;"	kind:namespace	line:199
+BYTES2STR	../qcontactdb/fetch.py	/^from qqbot.common import JsonDumps, HTMLUnescape, PY3, STR2BYTES, BYTES2STR$/;"	kind:namespace	line:13
+BYTES2STR	../qrcodeserver.py	/^from qqbot.common import STR2BYTES, BYTES2STR, SYSTEMSTR2STR$/;"	kind:namespace	line:11
+BYTES2STR	../qterm.py	/^from qqbot.common import BYTES2STR, SYSTEMSTR2BYTES$/;"	kind:namespace	line:9
+BYTES2STR	../termbot.py	/^from qqbot.common import Unquote, STR2BYTES, JsonDumps, BYTES2STR$/;"	kind:namespace	line:5
+BYTES2SYSTEMSTR	../common.py	/^    BYTES2SYSTEMSTR = BYTES2STR$/;"	kind:variable	line:23
+BYTES2SYSTEMSTR	../common.py	/^    BYTES2SYSTEMSTR = STR2SYSTEMSTR$/;"	kind:variable	line:40
+BackgroundScheduler	../qqbotcls.py	/^from apscheduler.schedulers.background import BackgroundScheduler$/;"	kind:namespace	line:16
+BasicQSession	../basicqsession.py	/^class BasicQSession(object):$/;"	kind:class	line:30
+BasicQSession	../plugins/passwordlogin.py	/^from qqbot.basicqsession import BasicQSession, qHash, bknHash$/;"	kind:namespace	line:54
+BasicQSession	../qcontactdb/fetch.py	/^    from qqbot.basicqsession import BasicQSession$/;"	kind:namespace	line:312
+BasicQSession	../qcontactdb/fetch.py	/^from qqbot.basicqsession import BasicQSession, RequestError$/;"	kind:namespace	line:12
+BasicQSession	../qsession.py	/^from qqbot.basicqsession import BasicQSession, RequestError$/;"	kind:namespace	line:12
+Buddy	../qcontactdb/contactdb.py	/^class Buddy(QContact):$/;"	kind:class	line:24
+By	../plugins/passwordlogin.py	/^from selenium.webdriver.common.by import By$/;"	kind:namespace	line:49
+CHSTAGS	../qcontactdb/display.py	/^CHSTAGS = ('QQ', '名称', '网名', '备注名', '群名片', 'UIN')$/;"	kind:variable	line:13
+CRITICAL	../basicqsession.py	/^from qqbot.utf8logger import CRITICAL, ERROR, WARN, INFO, DEBUG$/;"	kind:namespace	line:11
+CRITICAL	../qqbotcls.py	/^from qqbot.utf8logger import INFO, CRITICAL, ERROR, WARN$/;"	kind:namespace	line:21
+CTYPES	../qcontactdb/contactdb.py	/^CTYPES = {$/;"	kind:variable	line:7
+CTYPES	../qcontactdb/display.py	/^CTYPES = {$/;"	kind:variable	line:14
+CallInNewConsole	../common.py	/^def CallInNewConsole(args=None):$/;"	kind:function	line:113
+Client	../plugins/miniirc.py	/^class Client(object):$/;"	kind:class	line:37
+CloseHandle	../common.py	/^    CloseHandle = _kernel32dll.CloseHandle$/;"	kind:variable	line:263
+CodingWrappedWriter	../utf8logger.py	/^class CodingWrappedWriter(object):$/;"	kind:class	line:15
+ConfError	../qconf.py	/^class ConfError(Exception):$/;"	kind:class	line:202
+ConfPath	../qconf.py	/^    def ConfPath(self):$/;"	kind:member	line:446
+ContactDB	../qcontactdb/contactdb.py	/^class ContactDB(object):$/;"	kind:class	line:105
+ContactDB	../qcontactdb/qcontactdb.py	/^from qqbot.qcontactdb.contactdb import ContactDB$/;"	kind:namespace	line:8
+ContactList	../plugins/miniirc.py	/^class ContactList(object):$/;"	kind:class	line:296
+Copy	../basicqsession.py	/^    def Copy(self):$/;"	kind:member	line:68
+CreateToolhelp32Snapshot	../common.py	/^    CreateToolhelp32Snapshot = ctypes.windll.kernel32.CreateToolhelp32Snapshot$/;"	kind:variable	line:257
+CronTrigger	../qqbotcls.py	/^from apscheduler.triggers.cron import CronTrigger$/;"	kind:namespace	line:17
+DBDisplayer	../qcontactdb/display.py	/^class DBDisplayer(object):$/;"	kind:class	line:22
+DBDisplayer	../qcontactdb/qcontactdb.py	/^from qqbot.qcontactdb.display import DBDisplayer$/;"	kind:namespace	line:9
+DEBUG	../basicqsession.py	/^from qqbot.utf8logger import CRITICAL, ERROR, WARN, INFO, DEBUG$/;"	kind:namespace	line:11
+DEBUG	../plugins/miniirc.py	/^from qqbot.utf8logger import ERROR, DEBUG$/;"	kind:namespace	line:14
+DEBUG	../plugins/sampleslots.py	/^from qqbot.utf8logger import DEBUG$/;"	kind:namespace	line:6
+DEBUG	../qcontactdb/display.py	/^from qqbot.utf8logger import DEBUG$/;"	kind:namespace	line:10
+DEBUG	../qrcodemanager.py	/^from qqbot.utf8logger import WARN, INFO, DEBUG, ERROR$/;"	kind:namespace	line:10
+DEBUG	../qsession.py	/^from qqbot.utf8logger import WARN, INFO, DEBUG$/;"	kind:namespace	line:11
+Daemonize	../qconf.py	/^    def Daemonize(self):$/;"	kind:member	line:495
+Delete	../qcontactdb/contactdb.py	/^    def Delete(self, tinfo, c):$/;"	kind:member	line:200
+Destroy	../qrcodemanager.py	/^    def Destroy(self):$/;"	kind:member	line:139
+DisableLog	../basicqsession.py	/^from qqbot.utf8logger import DisableLog, EnableLog$/;"	kind:namespace	line:12
+DisableLog	../utf8logger.py	/^def DisableLog():$/;"	kind:function	line:78
+Discuss	../qcontactdb/contactdb.py	/^class Discuss(QContact):$/;"	kind:class	line:43
+DiscussMember	../qcontactdb/contactdb.py	/^class DiscussMember(QContact):$/;"	kind:class	line:67
+Display	../qconf.py	/^    def Display(self):$/;"	kind:member	line:419
+DotDict	../common.py	/^class DotDict(object):$/;"	kind:class	line:149
+EC	../plugins/passwordlogin.py	/^from selenium.webdriver.support import expected_conditions as EC$/;"	kind:namespace	line:51
+ERROR	../basicqsession.py	/^from qqbot.utf8logger import CRITICAL, ERROR, WARN, INFO, DEBUG$/;"	kind:namespace	line:11
+ERROR	../groupmanager.py	/^from qqbot.utf8logger import WARN, INFO, ERROR$/;"	kind:namespace	line:16
+ERROR	../mysocketserver.py	/^from qqbot.utf8logger import INFO, ERROR$/;"	kind:namespace	line:8
+ERROR	../plugins/miniirc.py	/^from qqbot.utf8logger import ERROR, DEBUG$/;"	kind:namespace	line:14
+ERROR	../plugins/passwordlogin.py	/^from qqbot.utf8logger import ERROR, INFO$/;"	kind:namespace	line:55
+ERROR	../qconf.py	/^from qqbot.utf8logger import SetLogLevel, INFO, RAWINPUT, PRINT, ERROR$/;"	kind:namespace	line:198
+ERROR	../qcontactdb/fetch.py	/^from qqbot.utf8logger import WARN, ERROR, INFO$/;"	kind:namespace	line:11
+ERROR	../qqbotcls.py	/^from qqbot.utf8logger import INFO, CRITICAL, ERROR, WARN$/;"	kind:namespace	line:21
+ERROR	../qrcodemanager.py	/^from qqbot.utf8logger import WARN, INFO, DEBUG, ERROR$/;"	kind:namespace	line:10
+ERROR	../qrcodeserver.py	/^from qqbot.utf8logger import ERROR$/;"	kind:namespace	line:12
+ERROR	../qterm.py	/^from qqbot.utf8logger import INFO, ERROR, PRINT$/;"	kind:namespace	line:8
+ERROR	../termbot.py	/^from qqbot.utf8logger import ERROR$/;"	kind:namespace	line:3
+EXCHSTAGS	../qcontactdb/display.py	/^EXCHSTAGS = ('群内角色',)$/;"	kind:variable	line:20
+EXTAGS	../qcontactdb/display.py	/^EXTAGS = ('role=',)$/;"	kind:variable	line:19
+EmojiEncode	../facemap.py	/^def EmojiEncode(pollContent):$/;"	kind:function	line:62
+EnableLog	../basicqsession.py	/^from qqbot.utf8logger import DisableLog, EnableLog$/;"	kind:namespace	line:12
+EnableLog	../utf8logger.py	/^def EnableLog():$/;"	kind:function	line:81
+FRESH_RESTART	../qqbotcls.py	/^FRESH_RESTART = 202$/;"	kind:variable	line:30
+FaceParse	../basicqsession.py	/^from qqbot.facemap import FaceParse, FaceReverseParse$/;"	kind:namespace	line:14
+FaceParse	../facemap.py	/^def FaceParse(sendContent):$/;"	kind:function	line:87
+FaceReverseParse	../basicqsession.py	/^from qqbot.facemap import FaceParse, FaceReverseParse$/;"	kind:namespace	line:14
+FaceReverseParse	../facemap.py	/^def FaceReverseParse(pollContent):$/;"	kind:function	line:79
+Fetch	../qcontactdb/fetch.py	/^def Fetch(self, tinfo):$/;"	kind:function	line:285
+Fetch	../qcontactdb/qcontactdb.py	/^from qqbot.qcontactdb.fetch import Fetch$/;"	kind:namespace	line:10
+FindSender	../qcontactdb/qcontactdb.py	/^    def FindSender(self, ctype, fromUin, membUin, thisQQ, content):$/;"	kind:member	line:103
+FirstFetch	../qcontactdb/qcontactdb.py	/^    def FirstFetch(self):$/;"	kind:member	line:46
+FreshRestart	../qqbotcls.py	/^    def FreshRestart(self):$/;"	kind:member	line:163
+GetCurrentProcessId	../common.py	/^    GetCurrentProcessId = ctypes.windll.kernel32.GetCurrentProcessId$/;"	kind:variable	line:258
+Group	../qcontactdb/contactdb.py	/^class Group(QContact):$/;"	kind:class	line:33
+GroupKick	../groupmanager.py	/^    def GroupKick(self, group, membs):$/;"	kind:member	line:108
+GroupKick	../groupmanager.py	/^    def GroupKick(self, groupqq, qqlist, placehold=None):$/;"	kind:member	line:23
+GroupManager	../groupmanager.py	/^class GroupManager(object):$/;"	kind:class	line:69
+GroupManager	../qqbotcls.py	/^from qqbot.groupmanager import GroupManager$/;"	kind:namespace	line:26
+GroupManagerSession	../groupmanager.py	/^class GroupManagerSession(object):$/;"	kind:class	line:21
+GroupManagerSession	../plugins/passwordlogin.py	/^    from qqbot.groupmanager import GroupManagerSession$/;"	kind:namespace	line:146
+GroupManagerSession	../qsession.py	/^from qqbot.groupmanager import GroupManagerSession$/;"	kind:namespace	line:13
+GroupMember	../qcontactdb/contactdb.py	/^class GroupMember(QContact):$/;"	kind:class	line:49
+GroupSetAdmin	../groupmanager.py	/^    def GroupSetAdmin(self, group, membs, admin=True):$/;"	kind:member	line:117
+GroupSetAdmin	../groupmanager.py	/^    def GroupSetAdmin(self, groupqq, qqlist, admin=True):$/;"	kind:member	line:35
+GroupSetCard	../groupmanager.py	/^    def GroupSetCard(self, group, membs, card):$/;"	kind:member	line:142
+GroupSetCard	../groupmanager.py	/^    def GroupSetCard(self, groupqq, qqlist, card):$/;"	kind:member	line:58
+GroupShut	../groupmanager.py	/^    def GroupShut(self, group, membs, t):$/;"	kind:member	line:135
+GroupShut	../groupmanager.py	/^    def GroupShut(self, groupqq, qqlist, t):$/;"	kind:member	line:47
+HTMLParser	../common.py	/^    import HTMLParser; htmlUnescape = HTMLParser.HTMLParser().unescape$/;"	kind:namespace	line:180
+HTMLParser	../common.py	/^    import html.parser; htmlUnescape = html.parser.HTMLParser().unescape$/;"	kind:namespace	line:184
+HTMLUnescape	../common.py	/^    def HTMLUnescape(s):$/;"	kind:function	line:181
+HTMLUnescape	../common.py	/^    def HTMLUnescape(s):$/;"	kind:function	line:185
+HTMLUnescape	../qcontactdb/fetch.py	/^from qqbot.common import JsonDumps, HTMLUnescape, PY3, STR2BYTES, BYTES2STR$/;"	kind:namespace	line:13
+HasCommand	../common.py	/^def HasCommand(procName):$/;"	kind:function	line:87
+HasCommand	../qrcodemanager.py	/^from qqbot.common import StartDaemonThread, LockedValue, HasCommand, SYSTEMSTR2STR$/;"	kind:namespace	line:11
+Header	../mailagent.py	/^from email.header import Header, decode_header$/;"	kind:namespace	line:15
+IMAP	../mailagent.py	/^class IMAP(object):$/;"	kind:class	line:127
+INFO	../basicqsession.py	/^from qqbot.utf8logger import CRITICAL, ERROR, WARN, INFO, DEBUG$/;"	kind:namespace	line:11
+INFO	../groupmanager.py	/^from qqbot.utf8logger import WARN, INFO, ERROR$/;"	kind:namespace	line:16
+INFO	../mysocketserver.py	/^from qqbot.utf8logger import INFO, ERROR$/;"	kind:namespace	line:8
+INFO	../plugins/passwordlogin.py	/^from qqbot.utf8logger import ERROR, INFO$/;"	kind:namespace	line:55
+INFO	../plugins/schedrestart.py	/^from qqbot.utf8logger import INFO$/;"	kind:namespace	line:10
+INFO	../qconf.py	/^from qqbot.utf8logger import SetLogLevel, INFO, RAWINPUT, PRINT, ERROR$/;"	kind:namespace	line:198
+INFO	../qcontactdb/fetch.py	/^from qqbot.utf8logger import WARN, ERROR, INFO$/;"	kind:namespace	line:11
+INFO	../qcontactdb/qcontactdb.py	/^from qqbot.utf8logger import INFO$/;"	kind:namespace	line:11
+INFO	../qqbotcls.py	/^from qqbot.utf8logger import INFO, CRITICAL, ERROR, WARN$/;"	kind:namespace	line:21
+INFO	../qrcodemanager.py	/^from qqbot.utf8logger import WARN, INFO, DEBUG, ERROR$/;"	kind:namespace	line:10
+INFO	../qsession.py	/^from qqbot.utf8logger import WARN, INFO, DEBUG$/;"	kind:namespace	line:11
+INFO	../qterm.py	/^from qqbot.utf8logger import INFO, ERROR, PRINT$/;"	kind:namespace	line:8
+IRCServer	../plugins/miniirc.py	/^class IRCServer(MySocketServer):$/;"	kind:class	line:27
+IlegalUtf8	../qcontactdb/myprettytable.py	/^class IlegalUtf8(Exception):$/;"	kind:class	line:5
+Image	../qrcodemanager.py	/^Image = None$/;"	kind:variable	line:15
+Import	../common.py	/^def Import(moduleName):$/;"	kind:function	line:197
+Import	../qqbotcls.py	/^from qqbot.common import StartDaemonThread, Import$/;"	kind:namespace	line:23
+IsMainThread	../common.py	/^def IsMainThread():$/;"	kind:function	line:188
+JsonDumps	../basicqsession.py	/^from qqbot.common import PY3, Partition, JsonLoads, JsonDumps$/;"	kind:namespace	line:13
+JsonDumps	../common.py	/^JsonDumps = json.dumps$/;"	kind:variable	line:8
+JsonDumps	../groupmanager.py	/^from qqbot.common import JsonDumps$/;"	kind:namespace	line:14
+JsonDumps	../qcontactdb/fetch.py	/^from qqbot.common import JsonDumps, HTMLUnescape, PY3, STR2BYTES, BYTES2STR$/;"	kind:namespace	line:13
+JsonDumps	../termbot.py	/^from qqbot.common import Unquote, STR2BYTES, JsonDumps, BYTES2STR$/;"	kind:namespace	line:5
+JsonLoads	../basicqsession.py	/^from qqbot.common import PY3, Partition, JsonLoads, JsonDumps$/;"	kind:namespace	line:13
+JsonLoads	../common.py	/^JsonLoads = PY3 and json.loads or (lambda s: encJson(json.loads(s)))$/;"	kind:variable	line:7
+LOGIN_EXPIRE	../qqbotcls.py	/^LOGIN_EXPIRE = 203$/;"	kind:variable	line:31
+LeftTrim	../common.py	/^def LeftTrim(s, head):$/;"	kind:function	line:155
+List	../qcontactdb/contactdb.py	/^    def List(self, tinfo, cinfo=None):$/;"	kind:member	line:133
+List	../qcontactdb/qcontactdb.py	/^    def List(self, tinfo, cinfo=None):$/;"	kind:member	line:23
+LoadQQ	../qconf.py	/^    def LoadQQ(self):$/;"	kind:member	line:472
+LockedValue	../common.py	/^class LockedValue(object):$/;"	kind:class	line:98
+LockedValue	../qrcodemanager.py	/^from qqbot.common import StartDaemonThread, LockedValue, HasCommand, SYSTEMSTR2STR$/;"	kind:namespace	line:11
+Login	../basicqsession.py	/^    def Login(self, conf):        $/;"	kind:member	line:32
+Login	../plugins/passwordlogin.py	/^    def Login(self, conf):$/;"	kind:member	line:61
+Login	../qqbotcls.py	/^    def Login(self, argv=None):$/;"	kind:member	line:106
+MAX_PATH	../common.py	/^    MAX_PATH = 260$/;"	kind:variable	line:260
+MIMEBase	../mailagent.py	/^from email.mime.base import MIMEBase$/;"	kind:namespace	line:12
+MIMEMultipart	../mailagent.py	/^from email.mime.multipart import MIMEMultipart$/;"	kind:namespace	line:11
+MIMEText	../mailagent.py	/^from email.mime.text import MIMEText$/;"	kind:namespace	line:13
+MailAgent	../mailagent.py	/^class MailAgent(object):$/;"	kind:class	line:42
+MailAgent	../qrcodemanager.py	/^from qqbot.mailagent import MailAgent$/;"	kind:namespace	line:13
+Main	../__init__.py	/^Main = RunBot$/;"	kind:variable	line:8
+Main	../__main__.py	/^from qqbot import Main; Main()$/;"	kind:namespace	line:6
+MainLoop	../__init__.py	/^from .mainloop import MainLoop, Put, PutTo, AddWorkerTo$/;"	kind:namespace	line:6
+MainLoop	../mainloop.py	/^MainLoop = mainLoop.Run$/;"	kind:variable	line:68
+MainLoop	../plugins/miniirc.py	/^    from qqbot.mainloop import MainLoop$/;"	kind:namespace	line:338
+MainLoop	../qqbotcls.py	/^from qqbot.mainloop import MainLoop, Put$/;"	kind:namespace	line:25
+Modify	../qcontactdb/contactdb.py	/^    def Modify(self, tinfo, c, **kw):$/;"	kind:member	line:212
+MySocketServer	../mysocketserver.py	/^class MySocketServer(object):$/;"	kind:class	line:13
+MySocketServer	../plugins/miniirc.py	/^from qqbot.mysocketserver import MySocketServer$/;"	kind:namespace	line:12
+MySocketServer	../qrcodeserver.py	/^from qqbot.mysocketserver import MySocketServer$/;"	kind:namespace	line:10
+MySocketServer	../qterm.py	/^from qqbot.mysocketserver import MySocketServer, Query$/;"	kind:namespace	line:10
+NewBasicQSession	../plugins/passwordlogin.py	/^class NewBasicQSession(BasicQSession):$/;"	kind:class	line:59
+NullContact	../qcontactdb/contactdb.py	/^    def NullContact(cls, tinfo, uin):$/;"	kind:member	line:236
+ObjOfList	../qcontactdb/display.py	/^    def ObjOfList(self, ctype, info1=None, info2=None):$/;"	kind:member	line:66
+PIL	../qconf.py	/^                import PIL$/;"	kind:namespace	line:382
+PRINT	../qconf.py	/^from qqbot.utf8logger import SetLogLevel, INFO, RAWINPUT, PRINT, ERROR$/;"	kind:namespace	line:198
+PRINT	../qterm.py	/^from qqbot.utf8logger import INFO, ERROR, PRINT$/;"	kind:namespace	line:8
+PRINT	../utf8logger.py	/^def PRINT(s, end='\\n'):$/;"	kind:function	line:99
+PROCESSENTRY32	../common.py	/^    class PROCESSENTRY32(ctypes.Structure):$/;"	kind:class	line:265
+PY3	../basicqsession.py	/^from qqbot.common import PY3, Partition, JsonLoads, JsonDumps$/;"	kind:namespace	line:13
+PY3	../facemap.py	/^PY3 = (sys.version_info[0] == 3)$/;"	kind:variable	line:60
+PY3	../mailagent.py	/^from qqbot.common import PY3$/;"	kind:namespace	line:17
+PY3	../qcontactdb/fetch.py	/^from qqbot.common import JsonDumps, HTMLUnescape, PY3, STR2BYTES, BYTES2STR$/;"	kind:namespace	line:13
+PY3	../qcontactdb/myprettytable.py	/^import sys; PY3 = (sys.version_info[0]==3)$/;"	kind:namespace	line:3
+PY3	../utf8logger.py	/^from qqbot.common import PY3$/;"	kind:namespace	line:10
+Partition	../basicqsession.py	/^from qqbot.common import PY3, Partition, JsonLoads, JsonDumps$/;"	kind:namespace	line:13
+Partition	../common.py	/^def Partition(msg):$/;"	kind:function	line:57
+Pass	../common.py	/^Pass = lambda *arg, **kwargs: None$/;"	kind:variable	line:153
+PicklePath	../qconf.py	/^    def PicklePath(self):$/;"	kind:member	line:449
+Plug	../qqbotcls.py	/^    def Plug(self, moduleName):$/;"	kind:member	line:279
+Plugins	../qqbotcls.py	/^    def Plugins(self):$/;"	kind:member	line:328
+Poll	../basicqsession.py	/^    def Poll(self):$/;"	kind:member	line:195
+PrettyTable	../qcontactdb/display.py	/^from qqbot.qcontactdb.myprettytable import PrettyTable$/;"	kind:namespace	line:9
+PrettyTable	../qcontactdb/myprettytable.py	/^class PrettyTable:$/;"	kind:class	line:69
+Process32First	../common.py	/^    Process32First = _kernel32dll.Process32FirstW$/;"	kind:variable	line:280
+Process32Next	../common.py	/^    Process32Next = _kernel32dll.Process32NextW$/;"	kind:variable	line:281
+Put	../__init__.py	/^from .mainloop import MainLoop, Put, PutTo, AddWorkerTo$/;"	kind:namespace	line:6
+Put	../basicqsession.py	/^from qqbot.mainloop import Put$/;"	kind:namespace	line:15
+Put	../mainloop.py	/^    def Put(self, func, *args, **kwargs):$/;"	kind:member	line:35
+Put	../mainloop.py	/^Put = mainLoop.Put$/;"	kind:variable	line:69
+Put	../plugins/miniirc.py	/^from qqbot.mainloop import Put$/;"	kind:namespace	line:15
+Put	../qqbotcls.py	/^from qqbot.mainloop import MainLoop, Put$/;"	kind:namespace	line:25
+Put	../qterm.py	/^from qqbot.mainloop import Put$/;"	kind:namespace	line:11
+Put	../termbot.py	/^from qqbot.mainloop import Put$/;"	kind:namespace	line:4
+PutTo	../__init__.py	/^from .mainloop import MainLoop, Put, PutTo, AddWorkerTo$/;"	kind:namespace	line:6
+PutTo	../mainloop.py	/^    def PutTo(self, queueLabel, func, *args, **kwargs):$/;"	kind:member	line:44
+PutTo	../mainloop.py	/^PutTo = mainLoop.PutTo$/;"	kind:variable	line:70
+QConf	../mailagent.py	/^    from qqbot.qconf import QConf$/;"	kind:namespace	line:205
+QConf	../qconf.py	/^class QConf(object):$/;"	kind:class	line:205
+QConf	../qcontactdb/fetch.py	/^    from qqbot.qconf import QConf$/;"	kind:namespace	line:311
+QConf	../qcontactdb/fetch.py	/^from qqbot.qconf import QConf$/;"	kind:namespace	line:10
+QConf	../qqbotcls.py	/^from qqbot.qconf import QConf$/;"	kind:namespace	line:20
+QConf	../qrcodemanager.py	/^    from qconf import QConf$/;"	kind:namespace	line:231
+QConf	../qsession.py	/^    from qqbot.qconf import QConf$/;"	kind:namespace	line:66
+QContact	../qcontactdb/__init__.py	/^from .contactdb import QContact$/;"	kind:namespace	line:2
+QContact	../qcontactdb/contactdb.py	/^class QContact(object):$/;"	kind:class	line:12
+QContactDB	../qcontactdb/__init__.py	/^from .qcontactdb import QContactDB$/;"	kind:namespace	line:1
+QContactDB	../qcontactdb/qcontactdb.py	/^class QContactDB(DBDisplayer):$/;"	kind:class	line:16
+QContactDB	../qsession.py	/^from qqbot.qcontactdb import QContactDB$/;"	kind:namespace	line:10
+QLogin	../qqbotcls.py	/^from qqbot.qsession import QLogin, RequestError$/;"	kind:namespace	line:22
+QLogin	../qsession.py	/^def QLogin(conf):$/;"	kind:function	line:16
+QQBot	../__init__.py	/^from .qqbotcls import QQBot, QQBotSlot, QQBotSched, RunBot, _bot$/;"	kind:namespace	line:3
+QQBot	../qcontactdb/fetch.py	/^    from qqbot import QQBot; fn = QQBot._bot.conf.absPath('groupqq')$/;"	kind:namespace	line:73
+QQBot	../qqbotcls.py	/^class QQBot(GroupManager, TermBot):$/;"	kind:class	line:104
+QQBotSched	../__init__.py	/^from .qqbotcls import QQBot, QQBotSlot, QQBotSched, RunBot, _bot$/;"	kind:namespace	line:3
+QQBotSched	../qqbotcls.py	/^QQBotSched = _bot.AddSched$/;"	kind:variable	line:334
+QQBotSlot	../__init__.py	/^from .qqbotcls import QQBot, QQBotSlot, QQBotSched, RunBot, _bot$/;"	kind:namespace	line:3
+QQBotSlot	../qqbotcls.py	/^QQBotSlot = _bot.AddSlot$/;"	kind:variable	line:333
+QSession	../plugins/passwordlogin.py	/^    class QSession(NewBasicQSession, GroupManagerSession):$/;"	kind:class	line:147
+QSession	../qsession.py	/^class QSession(BasicQSession, GroupManagerSession):$/;"	kind:class	line:62
+QTerm	../__init__.py	/^from .qterm import QTerm$/;"	kind:namespace	line:4
+QTerm	../qterm.py	/^def QTerm():$/;"	kind:function	line:35
+QTermServer	../qqbotcls.py	/^from qqbot.qterm import QTermServer$/;"	kind:namespace	line:24
+QTermServer	../qterm.py	/^class QTermServer(MySocketServer):$/;"	kind:class	line:15
+QrcodeManager	../basicqsession.py	/^from qqbot.qrcodemanager import QrcodeManager$/;"	kind:namespace	line:10
+QrcodeManager	../qrcodemanager.py	/^class QrcodeManager(object):$/;"	kind:class	line:17
+QrcodePath	../qconf.py	/^    def QrcodePath(self, qrcodeId):$/;"	kind:member	line:455
+QrcodeServer	../qrcodemanager.py	/^from qqbot.qrcodeserver import QrcodeServer$/;"	kind:namespace	line:12
+QrcodeServer	../qrcodeserver.py	/^class QrcodeServer(MySocketServer):$/;"	kind:class	line:14
+Query	../mysocketserver.py	/^def Query(host, port, req):$/;"	kind:function	line:98
+Query	../qterm.py	/^from qqbot.mysocketserver import MySocketServer, Query$/;"	kind:namespace	line:10
+Queue	../common.py	/^    import Queue$/;"	kind:namespace	line:147
+Queue	../common.py	/^    import queue as Queue$/;"	kind:namespace	line:145
+Queue	../mainloop.py	/^from qqbot.common import StartDaemonThread, Queue$/;"	kind:namespace	line:10
+RAWINPUT	../qconf.py	/^from qqbot.utf8logger import SetLogLevel, INFO, RAWINPUT, PRINT, ERROR$/;"	kind:namespace	line:198
+RAWINPUT	../utf8logger.py	/^    def RAWINPUT(msg):$/;"	kind:function	line:92
+RESTART	../qqbotcls.py	/^RESTART = 201$/;"	kind:variable	line:29
+RequestError	../basicqsession.py	/^class RequestError(Exception):$/;"	kind:class	line:27
+RequestError	../groupmanager.py	/^from qqbot.basicqsession import RequestError$/;"	kind:namespace	line:15
+RequestError	../qcontactdb/fetch.py	/^from qqbot.basicqsession import BasicQSession, RequestError$/;"	kind:namespace	line:12
+RequestError	../qqbotcls.py	/^from qqbot.qsession import QLogin, RequestError$/;"	kind:namespace	line:22
+RequestError	../qsession.py	/^from qqbot.basicqsession import BasicQSession, RequestError$/;"	kind:namespace	line:12
+Restart	../qqbotcls.py	/^    def Restart(self):$/;"	kind:member	line:160
+Run	../mainloop.py	/^    def Run(self):$/;"	kind:member	line:64
+Run	../mysocketserver.py	/^    def Run(self):$/;"	kind:member	line:20
+Run	../qqbotcls.py	/^    def Run(self):$/;"	kind:member	line:131
+Run	../qterm.py	/^    def Run(self):$/;"	kind:member	line:20
+RunBot	../__init__.py	/^from .qqbotcls import QQBot, QQBotSlot, QQBotSched, RunBot, _bot$/;"	kind:namespace	line:3
+RunBot	../qqbotcls.py	/^def RunBot(argv=None):$/;"	kind:function	line:91
+SERVER_LIB	../mailagent.py	/^SERVER_LIB = {$/;"	kind:variable	line:24
+SMTP	../mailagent.py	/^class SMTP(object):$/;"	kind:class	line:76
+STR2BYTES	../common.py	/^    STR2BYTES = _PASS$/;"	kind:variable	line:29
+STR2BYTES	../common.py	/^    STR2BYTES = lambda s: s.encode('utf8')$/;"	kind:variable	line:16
+STR2BYTES	../mysocketserver.py	/^from qqbot.common import STR2BYTES$/;"	kind:namespace	line:9
+STR2BYTES	../plugins/miniirc.py	/^from qqbot.common import STR2BYTES, BYTES2STR, StartDaemonThread$/;"	kind:namespace	line:13
+STR2BYTES	../qconf.py	/^from qqbot.common import STR2BYTES, BYTES2STR, SYSTEMSTR2STR, STR2SYSTEMSTR$/;"	kind:namespace	line:199
+STR2BYTES	../qcontactdb/fetch.py	/^from qqbot.common import JsonDumps, HTMLUnescape, PY3, STR2BYTES, BYTES2STR$/;"	kind:namespace	line:13
+STR2BYTES	../qrcodeserver.py	/^from qqbot.common import STR2BYTES, BYTES2STR, SYSTEMSTR2STR$/;"	kind:namespace	line:11
+STR2BYTES	../termbot.py	/^from qqbot.common import Unquote, STR2BYTES, JsonDumps, BYTES2STR$/;"	kind:namespace	line:5
+STR2SYSTEMSTR	../common.py	/^        STR2SYSTEMSTR = _PASS$/;"	kind:variable	line:34
+STR2SYSTEMSTR	../common.py	/^        STR2SYSTEMSTR = lambda s: s.decode('utf8').encode(_SYSENCODING)$/;"	kind:variable	line:37
+STR2SYSTEMSTR	../common.py	/^    STR2SYSTEMSTR = _PASS$/;"	kind:variable	line:19
+STR2SYSTEMSTR	../qconf.py	/^from qqbot.common import STR2BYTES, BYTES2STR, SYSTEMSTR2STR, STR2SYSTEMSTR$/;"	kind:namespace	line:199
+STR2UNICODE	../common.py	/^    STR2UNICODE = _PASS$/;"	kind:variable	line:13
+STR2UNICODE	../common.py	/^    STR2UNICODE = lambda s: s.decode('utf8')$/;"	kind:variable	line:26
+SYSTEMSTR2BYTES	../common.py	/^    SYSTEMSTR2BYTES = STR2BYTES$/;"	kind:variable	line:22
+SYSTEMSTR2BYTES	../common.py	/^    SYSTEMSTR2BYTES = SYSTEMSTR2STR$/;"	kind:variable	line:41
+SYSTEMSTR2BYTES	../mysocketserver.py	/^    from qqbot.common import SYSTEMSTR2BYTES$/;"	kind:namespace	line:117
+SYSTEMSTR2BYTES	../qterm.py	/^from qqbot.common import BYTES2STR, SYSTEMSTR2BYTES$/;"	kind:namespace	line:9
+SYSTEMSTR2STR	../common.py	/^        SYSTEMSTR2STR = _PASS$/;"	kind:variable	line:35
+SYSTEMSTR2STR	../common.py	/^        SYSTEMSTR2STR = lambda s: s.decode(_SYSENCODING).encode('utf8')$/;"	kind:variable	line:38
+SYSTEMSTR2STR	../common.py	/^    SYSTEMSTR2STR = _PASS$/;"	kind:variable	line:20
+SYSTEMSTR2STR	../qconf.py	/^from qqbot.common import STR2BYTES, BYTES2STR, SYSTEMSTR2STR, STR2SYSTEMSTR$/;"	kind:namespace	line:199
+SYSTEMSTR2STR	../qcontactdb/qcontactdb.py	/^from qqbot.common import SYSTEMSTR2STR$/;"	kind:namespace	line:12
+SYSTEMSTR2STR	../qrcodemanager.py	/^from qqbot.common import StartDaemonThread, LockedValue, HasCommand, SYSTEMSTR2STR$/;"	kind:namespace	line:11
+SYSTEMSTR2STR	../qrcodeserver.py	/^from qqbot.common import STR2BYTES, BYTES2STR, SYSTEMSTR2STR$/;"	kind:namespace	line:11
+SYSTEMSTR2STR	../qsession.py	/^from qqbot.common import SYSTEMSTR2STR$/;"	kind:namespace	line:14
+SendTo	../basicqsession.py	/^    def SendTo(self, contact, content, resendOn1202=True):$/;"	kind:member	line:264
+SetLogLevel	../plugins/miniirc.py	/^    from qqbot.utf8logger import SetLogLevel; SetLogLevel('debug')$/;"	kind:namespace	line:337
+SetLogLevel	../qconf.py	/^from qqbot.utf8logger import SetLogLevel, INFO, RAWINPUT, PRINT, ERROR$/;"	kind:namespace	line:198
+SetLogLevel	../utf8logger.py	/^def SetLogLevel(level):$/;"	kind:function	line:75
+SetQQ	../qconf.py	/^    def SetQQ(self, qq):$/;"	kind:member	line:458
+Show	../qrcodemanager.py	/^    def Show(self, qrcode):$/;"	kind:member	line:74
+StartDaemonThread	../common.py	/^def StartDaemonThread(target, *args, **kwargs):$/;"	kind:function	line:93
+StartDaemonThread	../mainloop.py	/^from qqbot.common import StartDaemonThread, Queue$/;"	kind:namespace	line:10
+StartDaemonThread	../plugins/miniirc.py	/^from qqbot.common import STR2BYTES, BYTES2STR, StartDaemonThread$/;"	kind:namespace	line:13
+StartDaemonThread	../qqbotcls.py	/^from qqbot.common import StartDaemonThread, Import$/;"	kind:namespace	line:23
+StartDaemonThread	../qrcodemanager.py	/^from qqbot.common import StartDaemonThread, LockedValue, HasCommand, SYSTEMSTR2STR$/;"	kind:namespace	line:11
+StartThread	../common.py	/^def StartThread(target, *args, **kwargs):$/;"	kind:function	line:90
+Stop	../mysocketserver.py	/^    def Stop(self):$/;"	kind:member	line:58
+Stop	../qqbotcls.py	/^    def Stop(self):$/;"	kind:member	line:157
+StoreQQ	../qconf.py	/^    def StoreQQ(self):$/;"	kind:member	line:461
+StrOfList	../qcontactdb/display.py	/^    def StrOfList(self, ctype, info1=None, info2=None):$/;"	kind:member	line:24
+TAGS	../qcontactdb/contactdb.py	/^TAGS = ('qq=', 'name=', 'nick=', 'mark=', 'card=', 'uin=')$/;"	kind:variable	line:5
+TAGS	../qcontactdb/display.py	/^TAGS = ('qq=', 'name=', 'nick=', 'mark=', 'card=', 'uin=')$/;"	kind:variable	line:12
+TH32CS_SNAPPROCESS	../common.py	/^    TH32CS_SNAPPROCESS = long(0x02) if not PY3 else int(0x02)$/;"	kind:variable	line:256
+TaskLoop	../mainloop.py	/^class TaskLoop(object):$/;"	kind:class	line:27
+TermBot	../qqbotcls.py	/^from qqbot.termbot import TermBot$/;"	kind:namespace	line:27
+TermBot	../termbot.py	/^class TermBot(object):$/;"	kind:class	line:9
+TestLogin	../basicqsession.py	/^    def TestLogin(self):$/;"	kind:member	line:174
+UNICODE2STR	../common.py	/^    UNICODE2STR = _PASS$/;"	kind:variable	line:14
+UNICODE2STR	../common.py	/^    UNICODE2STR = lambda s: s.encode('utf8')$/;"	kind:variable	line:27
+UniIter	../common.py	/^    def UniIter(s):$/;"	kind:function	line:216
+UniIter	../common.py	/^    def UniIter(s):$/;"	kind:function	line:220
+UniIter	../qcontactdb/myprettytable.py	/^    def UniIter(s):$/;"	kind:function	line:28
+UniIter	../qcontactdb/myprettytable.py	/^    def UniIter(s):$/;"	kind:function	line:45
+Unplug	../qqbotcls.py	/^    def Unplug(self, moduleName):$/;"	kind:member	line:314
+Unquote	../common.py	/^    Unquote = urllib.parse.unquote$/;"	kind:variable	line:209
+Unquote	../termbot.py	/^from qqbot.common import Unquote, STR2BYTES, JsonDumps, BYTES2STR$/;"	kind:namespace	line:5
+Update	../qcontactdb/contactdb.py	/^    def Update(self, tinfo, contacts):$/;"	kind:member	line:111
+Update	../qcontactdb/qcontactdb.py	/^    def Update(self, tinfo):$/;"	kind:member	line:33
+Utf8Logger	../utf8logger.py	/^def Utf8Logger(name):$/;"	kind:function	line:60
+WARN	../basicqsession.py	/^from qqbot.utf8logger import CRITICAL, ERROR, WARN, INFO, DEBUG$/;"	kind:namespace	line:11
+WARN	../groupmanager.py	/^from qqbot.utf8logger import WARN, INFO, ERROR$/;"	kind:namespace	line:16
+WARN	../qcontactdb/fetch.py	/^from qqbot.utf8logger import WARN, ERROR, INFO$/;"	kind:namespace	line:11
+WARN	../qqbotcls.py	/^from qqbot.utf8logger import INFO, CRITICAL, ERROR, WARN$/;"	kind:namespace	line:21
+WARN	../qrcodemanager.py	/^from qqbot.utf8logger import WARN, INFO, DEBUG, ERROR$/;"	kind:namespace	line:10
+WARN	../qsession.py	/^from qqbot.utf8logger import WARN, INFO, DEBUG$/;"	kind:namespace	line:11
+WebDriverWait	../plugins/passwordlogin.py	/^from selenium.webdriver.support.ui import WebDriverWait$/;"	kind:namespace	line:50
+_PASS	../common.py	/^_PASS = lambda s: s$/;"	kind:variable	line:10
+_SYSENCODING	../common.py	/^    _SYSENCODING = sys.getfilesystemencoding() or 'utf8'$/;"	kind:variable	line:32
+__enter__	../mailagent.py	/^    def __enter__(self):$/;"	kind:member	line:143
+__enter__	../mailagent.py	/^    def __enter__(self):$/;"	kind:member	line:92
+__exit__	../mailagent.py	/^    def __exit__(self, exc_type, exc_value, traceback):$/;"	kind:member	line:146
+__exit__	../mailagent.py	/^    def __exit__(self, exc_type, exc_value, traceback):$/;"	kind:member	line:95
+__init__	../common.py	/^    def __init__(self, **kw):$/;"	kind:member	line:150
+__init__	../common.py	/^    def __init__(self, initialVal=None):$/;"	kind:member	line:99
+__init__	../mailagent.py	/^    def __init__(self, account, auth_code, name='', **config):$/;"	kind:member	line:43
+__init__	../mailagent.py	/^    def __init__(self, mail_agent):$/;"	kind:member	line:128
+__init__	../mailagent.py	/^    def __init__(self, mail_agent):$/;"	kind:member	line:77
+__init__	../mainloop.py	/^    def __init__(self):$/;"	kind:member	line:28
+__init__	../mysocketserver.py	/^    def __init__(self, host, port, name='SocketServer', numListen=1):$/;"	kind:member	line:14
+__init__	../plugins/miniirc.py	/^    def __init__(self, contacts=None, discusses=None):$/;"	kind:member	line:297
+__init__	../plugins/miniirc.py	/^    def __init__(self, ip, port, bot):$/;"	kind:member	line:28
+__init__	../plugins/miniirc.py	/^    def __init__(self, sock, addr, server):$/;"	kind:member	line:38
+__init__	../qconf.py	/^    def __init__(self, argv=None):$/;"	kind:member	line:206
+__init__	../qcontactdb/contactdb.py	/^    def __init__(self, *fields):$/;"	kind:member	line:13
+__init__	../qcontactdb/contactdb.py	/^    def __init__(self, dbname=':memory:'):$/;"	kind:member	line:106
+__init__	../qcontactdb/myprettytable.py	/^    def __init__(self, heads, maxWidth=20):$/;"	kind:member	line:70
+__init__	../qcontactdb/qcontactdb.py	/^    def __init__(self, session):$/;"	kind:member	line:17
+__init__	../qqbotcls.py	/^    def __init__(self):        $/;"	kind:member	line:216
+__init__	../qrcodemanager.py	/^    def __init__(self, conf):$/;"	kind:member	line:18
+__init__	../qrcodeserver.py	/^    def __init__(self, ip, port, qrcodePath, qrcodeId):$/;"	kind:member	line:15
+__init__	../qterm.py	/^    def __init__(self, port, onCommand):$/;"	kind:member	line:16
+__init__	../utf8logger.py	/^    def __init__(self, coding, writer):$/;"	kind:member	line:16
+__init__.py	../__init__.py	1;"	kind:file	line:1
+__init__.py	../plugins/__init__.py	1;"	kind:file	line:1
+__init__.py	../qcontactdb/__init__.py	1;"	kind:file	line:1
+__main__.py	../__main__.py	1;"	kind:file	line:1
+__repr__	../qcontactdb/contactdb.py	/^    def __repr__(self):$/;"	kind:member	line:18
+__setattr__	../qcontactdb/contactdb.py	/^    def __setattr__(self, k, v):$/;"	kind:member	line:21
+__str__	../qcontactdb/myprettytable.py	/^    def __str__(self):$/;"	kind:member	line:86
+_bot	../__init__.py	/^from .qqbotcls import QQBot, QQBotSlot, QQBotSched, RunBot, _bot$/;"	kind:namespace	line:3
+_bot	../qcontactdb/fetch.py	/^    from qqbot import QQBot; fn = QQBot._bot.conf.absPath('groupqq')$/;"	kind:namespace	line:73
+_bot	../qcontactdb/qcontactdb.py	/^                from qqbot import _bot; _bot.onUpdate(tinfo)$/;"	kind:namespace	line:42
+_bot	../qqbotcls.py	/^_bot = QQBot()$/;"	kind:variable	line:331
+_bot	../qrcodemanager.py	/^        from qqbot import _bot$/;"	kind:namespace	line:78
+_call	../qqbotcls.py	/^def _call(func, *args, **kwargs):$/;"	kind:function	line:97
+_fields_	../common.py	/^        _fields_ = [$/;"	kind:variable	line:266
+_kernel32dll	../common.py	/^    _kernel32dll = ctypes.windll.Kernel32$/;"	kind:variable	line:262
+_thisDict	../utf8logger.py	/^_thisDict = globals()$/;"	kind:variable	line:84
+absPath	../qconf.py	/^    def absPath(self, rela):$/;"	kind:member	line:443
+absPath	../qcontactdb/fetch.py	/^    from qqbot import QQBot; fn = QQBot._bot.conf.absPath('groupqq')$/;"	kind:namespace	line:73
+add	../plugins/miniirc.py	/^    def add(self, contact):$/;"	kind:member	line:307
+addRow	../qcontactdb/myprettytable.py	/^    def addRow(self, row):$/;"	kind:member	line:77
+addWorkerTo	../mainloop.py	/^    def addWorkerTo(self, queueLabel, n):$/;"	kind:member	line:58
+addqqcmd.py	../plugins/addqqcmd.py	1;"	kind:file	line:1
+argparse	../qconf.py	/^import os, sys, ast, argparse, platform, time, pkgutil$/;"	kind:namespace	line:196
+ast	../qconf.py	/^import os, sys, ast, argparse, platform, time, pkgutil$/;"	kind:namespace	line:196
+basicqsession.py	../basicqsession.py	1;"	kind:file	line:1
+bknHash	../basicqsession.py	/^def bknHash(skey, init_str=5381):$/;"	kind:function	line:433
+bknHash	../plugins/passwordlogin.py	/^from qqbot.basicqsession import BasicQSession, qHash, bknHash$/;"	kind:namespace	line:54
+bl	../qcontactdb/contactdb.py	/^    bl = db.List('buddy')$/;"	kind:variable	line:258
+bot	../qqbotcls.py	/^    from qqbot import _bot as bot$/;"	kind:namespace	line:338
+c	../qsession.py	/^    c = contactdb.List('buddy', 'Eva')[0]$/;"	kind:variable	line:71
+calWidth	../qcontactdb/myprettytable.py	/^def calWidth(s, maxWidth=20):$/;"	kind:function	line:49
+close	../mailagent.py	/^    def close(self):$/;"	kind:member	line:149
+close	../mailagent.py	/^    def close(self):$/;"	kind:member	line:86
+close	../plugins/miniirc.py	/^    def close(self):$/;"	kind:member	line:283
+cmdFuncs	../plugins/addqqcmd.py	/^    from qqbot.termbot import cmdFuncs; cmdFuncs['mycommand'] = cmd_mycommand$/;"	kind:namespace	line:17
+cmd_fresh_restart	../termbot.py	/^def cmd_fresh_restart(bot, args, http=False):$/;"	kind:function	line:72
+cmd_group_kick	../termbot.py	/^def cmd_group_kick(bot, args, http=False):$/;"	kind:function	line:174
+cmd_group_set_admin	../termbot.py	/^def cmd_group_set_admin(bot, args, http=False):$/;"	kind:function	line:183
+cmd_group_set_card	../termbot.py	/^def cmd_group_set_card(bot, args, http=False):$/;"	kind:function	line:214
+cmd_group_shut	../termbot.py	/^def cmd_group_shut(bot, args, http=False):$/;"	kind:function	line:201
+cmd_group_unset_admin	../termbot.py	/^def cmd_group_unset_admin(bot, args, http=False):$/;"	kind:function	line:192
+cmd_group_unset_card	../termbot.py	/^def cmd_group_unset_card(bot, args, http=False):$/;"	kind:function	line:224
+cmd_help	../termbot.py	/^def cmd_help(bot, args, http=False):$/;"	kind:function	line:49
+cmd_list	../termbot.py	/^def cmd_list(bot, args, http=False):$/;"	kind:function	line:80
+cmd_mycommand	../plugins/addqqcmd.py	/^    from qqbot.termbot import cmdFuncs; cmdFuncs['mycommand'] = cmd_mycommand$/;"	kind:namespace	line:17
+cmd_mycommand	../plugins/addqqcmd.py	/^def cmd_mycommand(bot, args, http=False):$/;"	kind:function	line:11
+cmd_plug	../termbot.py	/^def cmd_plug(bot, args, http=False):$/;"	kind:function	line:234
+cmd_plugins	../termbot.py	/^def cmd_plugins(bot, args, http=False):$/;"	kind:function	line:248
+cmd_restart	../termbot.py	/^def cmd_restart(bot, args, http=False):$/;"	kind:function	line:64
+cmd_send	../termbot.py	/^def cmd_send(bot, args, http=False):$/;"	kind:function	line:122
+cmd_stop	../termbot.py	/^def cmd_stop(bot, args, http=False):$/;"	kind:function	line:56
+cmd_unplug	../termbot.py	/^def cmd_unplug(bot, args, http=False):$/;"	kind:function	line:241
+cmd_update	../termbot.py	/^def cmd_update(bot, args, http=False):$/;"	kind:function	line:103
+codeInfo	../qqbotcls.py	/^codeInfo = {$/;"	kind:variable	line:33
+collections	../qcontactdb/fetch.py	/^import collections, os$/;"	kind:namespace	line:15
+collections	../qcontactdb/qcontactdb.py	/^import collections, time, re$/;"	kind:namespace	line:14
+common.py	../common.py	1;"	kind:file	line:1
+conf	../mailagent.py	/^    conf = QConf(['-u', 'xxx'])$/;"	kind:variable	line:207
+conf	../qcontactdb/fetch.py	/^    conf = QConf(['-q', '158297369'])$/;"	kind:variable	line:315
+conf	../qcontactdb/fetch.py	/^    from qqbot import QQBot; fn = QQBot._bot.conf.absPath('groupqq')$/;"	kind:namespace	line:73
+conf	../qrcodemanager.py	/^    conf = QConf()$/;"	kind:variable	line:234
+conf	../qsession.py	/^    conf = QConf(['-q', '158297369'])$/;"	kind:variable	line:67
+configure	../qconf.py	/^    def configure(self):$/;"	kind:member	line:388
+conn	../qcontactdb/getgroupqq.py	/^    conn = sqlite3.connect(dbname)$/;"	kind:variable	line:18
+contactMaker	../qcontactdb/contactdb.py	/^contactMaker = {}$/;"	kind:variable	line:74
+contactdb.py	../qcontactdb/contactdb.py	1;"	kind:file	line:1
+ctypes	../common.py	/^    import ctypes$/;"	kind:namespace	line:254
+cursor	../qcontactdb/getgroupqq.py	/^    cursor = conn.cursor()$/;"	kind:variable	line:20
+daemonable	../common.py	/^daemonable = hasattr(os, 'fork')$/;"	kind:variable	line:310
+daemonable	../qconf.py	/^from qqbot.common import daemonize, daemonable$/;"	kind:namespace	line:200
+daemonize	../common.py	/^def daemonize(stdoutfile=None, stderrfile=None):$/;"	kind:function	line:312
+daemonize	../qconf.py	/^from qqbot.common import daemonize, daemonable$/;"	kind:namespace	line:200
+data	../mysocketserver.py	/^    data = ' '.join(sys.argv[1:]).strip()$/;"	kind:variable	line:118
+db	../qcontactdb/contactdb.py	/^    db = ContactDB()$/;"	kind:variable	line:253
+dbname	../qcontactdb/getgroupqq.py	/^    dbname = sys.argv[1]$/;"	kind:variable	line:16
+decode_header	../mailagent.py	/^from email.header import Header, decode_header$/;"	kind:namespace	line:15
+defaultdict	../qqbotcls.py	/^from collections import defaultdict$/;"	kind:namespace	line:18
+deprecatedConfKeys	../qconf.py	/^deprecatedConfKeys = ['fetchInterval', 'monitorTables']$/;"	kind:variable	line:194
+detectAtMe	../qqbotcls.py	/^    def detectAtMe(self, nameInGroup, content):$/;"	kind:member	line:203
+disableInsecureRequestWarning	../basicqsession.py	/^def disableInsecureRequestWarning():$/;"	kind:function	line:17
+display.py	../qcontactdb/display.py	1;"	kind:file	line:1
+encJson	../common.py	/^    def encJson(obj):$/;"	kind:function	line:44
+encode_base64	../mailagent.py	/^from email.encoders import encode_base64$/;"	kind:namespace	line:10
+equalUtf8	../utf8logger.py	/^def equalUtf8(coding):$/;"	kind:function	line:12
+exist	../qcontactdb/contactdb.py	/^    def exist(self, tname):$/;"	kind:member	line:180
+faceCode	../facemap.py	/^faceCode = [$/;"	kind:variable	line:33
+faceText	../facemap.py	/^faceText = [$/;"	kind:variable	line:15
+facemap.py	../facemap.py	1;"	kind:file	line:1
+fetch.py	../qcontactdb/fetch.py	1;"	kind:file	line:1
+fetchBuddyTable	../qcontactdb/fetch.py	/^def fetchBuddyTable(self):$/;"	kind:function	line:17
+fetchDiscussMemberTable	../qcontactdb/fetch.py	/^def fetchDiscussMemberTable(self, discuss):$/;"	kind:function	line:271
+fetchDiscussTable	../qcontactdb/fetch.py	/^def fetchDiscussTable(self):$/;"	kind:function	line:256
+fetchGroupMemberTable	../qcontactdb/fetch.py	/^def fetchGroupMemberTable(self, group):$/;"	kind:function	line:167
+fetchGroupTable	../qcontactdb/fetch.py	/^def fetchGroupTable(self):$/;"	kind:function	line:104
+find	../qcontactdb/qcontactdb.py	/^    def find(self, tinfo, uin, thisQQ, content):$/;"	kind:member	line:64
+fn	../qcontactdb/fetch.py	/^    from qqbot import QQBot; fn = QQBot._bot.conf.absPath('groupqq')$/;"	kind:namespace	line:73
+format_addr	../mailagent.py	/^    def format_addr(s):$/;"	kind:function	line:35
+formataddr	../mailagent.py	/^from email.utils import parseaddr, formataddr$/;"	kind:namespace	line:14
+func	../qqbotcls.py	/^        def func(*args, **kwargs):$/;"	kind:function	line:246
+g	../plugins/schedrestart.py	/^class g(object):$/;"	kind:class	line:12
+g	../qcontactdb/contactdb.py	/^    g = db.List('group', '123456')[0]$/;"	kind:variable	line:270
+get	../plugins/miniirc.py	/^    def get(self, nick=None, uin=None):$/;"	kind:member	line:326
+getAuthStatus	../basicqsession.py	/^    def getAuthStatus(self):$/;"	kind:member	line:119
+getManaulGroupQQDict	../qcontactdb/fetch.py	/^def getManaulGroupQQDict():$/;"	kind:function	line:69
+getPtwebqq	../basicqsession.py	/^    def getPtwebqq(self):$/;"	kind:member	line:139
+getQrcode	../basicqsession.py	/^    def getQrcode(self):$/;"	kind:member	line:74
+getReason	../qqbotcls.py	/^def getReason(code):$/;"	kind:function	line:37
+getSubject	../mailagent.py	/^    def getSubject(self, i):$/;"	kind:member	line:186
+getUinAndPsessionid	../basicqsession.py	/^    def getUinAndPsessionid(self):$/;"	kind:member	line:155
+getVal	../common.py	/^    def getVal(self):$/;"	kind:member	line:107
+getVfwebqq	../basicqsession.py	/^    def getVfwebqq(self):$/;"	kind:member	line:144
+getfirst	../qcontactdb/myprettytable.py	/^def getfirst(c):    $/;"	kind:function	line:8
+getgroupqq.py	../qcontactdb/getgroupqq.py	1;"	kind:file	line:1
+getppid	../common.py	/^    def getppid():$/;"	kind:function	line:283
+gl	../qqbotcls.py	/^    gl = bot.List('group')$/;"	kind:variable	line:340
+group_operation	../termbot.py	/^def group_operation(bot, ginfo, minfos, func, exArgs, http):$/;"	kind:function	line:141
+groupmanager.py	../groupmanager.py	1;"	kind:file	line:1
+groups	../qcontactdb/getgroupqq.py	/^    groups = cursor.fetchall()$/;"	kind:variable	line:22
+html	../common.py	/^    import html.parser; htmlUnescape = html.parser.HTMLParser().unescape$/;"	kind:namespace	line:184
+htmlUnescape	../common.py	/^    import HTMLParser; htmlUnescape = HTMLParser.HTMLParser().unescape$/;"	kind:namespace	line:180
+htmlUnescape	../common.py	/^    import html.parser; htmlUnescape = html.parser.HTMLParser().unescape$/;"	kind:namespace	line:184
+i	../qrcodemanager.py	/^                from PIL import Image as i$/;"	kind:namespace	line:67
+imaplib	../mailagent.py	/^import imaplib$/;"	kind:namespace	line:9
+importlib	../common.py	/^    import importlib$/;"	kind:namespace	line:192
+init	../qqbotcls.py	/^    def init(self, argv):$/;"	kind:member	line:233
+intervalForever	../qqbotcls.py	/^    def intervalForever(self):$/;"	kind:member	line:211
+io	../utf8logger.py	/^    import io$/;"	kind:namespace	line:39
+isMe	../qqbotcls.py	/^    def isMe(self, contact, member):$/;"	kind:member	line:206
+isSpace	../common.py	/^def isSpace(b):$/;"	kind:function	line:54
+isdigit	../groupmanager.py	/^def isdigit(s):$/;"	kind:function	line:18
+join	../plugins/miniirc.py	/^    def join(self, channel):$/;"	kind:member	line:186
+json	../common.py	/^import json, subprocess, threading, sys, platform, os$/;"	kind:namespace	line:3
+logging	../utf8logger.py	/^import sys, logging$/;"	kind:namespace	line:8
+m	../qqbotcls.py	/^    m = ml[0]$/;"	kind:variable	line:342
+ma	../mailagent.py	/^    ma = MailAgent(conf.mailAccount, conf.mailAuthCode)$/;"	kind:variable	line:210
+mailagent.py	../mailagent.py	1;"	kind:file	line:1
+mainLoop	../mainloop.py	/^mainLoop = TaskLoop()$/;"	kind:variable	line:67
+mainloop.py	../mainloop.py	1;"	kind:file	line:1
+membsOperation	../groupmanager.py	/^    def membsOperation(self, group, membs, tag, func, exArg):$/;"	kind:member	line:71
+message_from_bytes	../mailagent.py	/^    from email import message_from_bytes$/;"	kind:namespace	line:22
+message_from_string	../mailagent.py	/^    from email import message_from_string$/;"	kind:namespace	line:20
+miniirc.py	../plugins/miniirc.py	1;"	kind:file	line:1
+ml	../qqbotcls.py	/^    ml = bot.List(gl[0])$/;"	kind:variable	line:341
+mydump	../common.py	/^def mydump(fn, d):$/;"	kind:function	line:211
+myprettytable.py	../qcontactdb/myprettytable.py	1;"	kind:file	line:1
+mysocketserver.py	../mysocketserver.py	1;"	kind:file	line:1
+newLogin	../plugins/passwordlogin.py	/^    def newLogin(self, conf):$/;"	kind:member	line:73
+nicknames	../plugins/miniirc.py	/^    def nicknames(self):$/;"	kind:member	line:333
+notEnoughParams	../plugins/miniirc.py	/^    def notEnoughParams(self, command):$/;"	kind:member	line:267
+objOfList	../qcontactdb/display.py	/^    def objOfList(self, tinfo, cinfo=None):$/;"	kind:member	line:90
+onAccept	../mysocketserver.py	/^    def onAccept(self, sock, addr):$/;"	kind:member	line:42
+onAccept	../plugins/miniirc.py	/^    def onAccept(self, sock, addr):$/;"	kind:member	line:34
+onAcceptError	../mysocketserver.py	/^    def onAcceptError(self, e):$/;"	kind:member	line:83
+onCommand	../plugins/miniirc.py	/^    def onCommand(self, command, params, tail):$/;"	kind:member	line:146
+onData	../mysocketserver.py	/^    def onData(self, sock, addr, data):$/;"	kind:member	line:61
+onData	../qterm.py	/^    def onData(self, sock, addr, data):$/;"	kind:member	line:32
+onExit	../plugins/sampleslots.py	/^def onExit(bot, code, reason, error):$/;"	kind:function	line:60
+onInit	../plugins/passwordlogin.py	/^def onInit(bot):$/;"	kind:function	line:136
+onInit	../plugins/sampleslots.py	/^def onInit(bot):$/;"	kind:function	line:8
+onInterval	../plugins/sampleslots.py	/^def onInterval(bot):$/;"	kind:function	line:33
+onJoin	../plugins/miniirc.py	/^    def onJoin(self, params, tail):$/;"	kind:member	line:174
+onList	../plugins/miniirc.py	/^    def onList(self, params, tail):$/;"	kind:member	line:164
+onPart	../plugins/miniirc.py	/^    def onPart(self, params, tail):$/;"	kind:member	line:200
+onPing	../plugins/miniirc.py	/^    def onPing(self, params, tail):$/;"	kind:member	line:157
+onPlug	../plugins/addqqcmd.py	/^def onPlug(bot):$/;"	kind:function	line:16
+onPlug	../plugins/miniirc.py	/^def onPlug(bot):$/;"	kind:function	line:17
+onPlug	../plugins/sampleslots.py	/^def onPlug(bot):$/;"	kind:function	line:49
+onPlug	../plugins/schedrestart.py	/^def onPlug(bot):$/;"	kind:function	line:15
+onPollComplete	../qqbotcls.py	/^    def onPollComplete(self, ctype, fromUin, membUin, content):$/;"	kind:member	line:179
+onPrivmsg	../plugins/miniirc.py	/^    def onPrivmsg(self, params, tail):$/;"	kind:member	line:217
+onQQMessage	../plugins/miniirc.py	/^    def onQQMessage(self, bot, contact, member, content):$/;"	kind:member	line:232
+onQQMessage	../plugins/sample.py	/^def onQQMessage(bot, contact, member, content):$/;"	kind:function	line:6
+onQQMessage	../plugins/sampleslots.py	/^def onQQMessage(bot, contact, member, content):$/;"	kind:function	line:24
+onQrcode	../plugins/sampleslots.py	/^def onQrcode(bot, pngPath, pngContent):$/;"	kind:function	line:15
+onQuit	../plugins/miniirc.py	/^    def onQuit(self, params, tail):$/;"	kind:member	line:152
+onRecvError	../mysocketserver.py	/^    def onRecvError(self, sock, addr, e):$/;"	kind:member	line:86
+onSendError	../mysocketserver.py	/^    def onSendError(self, sock, addr, e):$/;"	kind:member	line:89
+onStart	../mysocketserver.py	/^    def onStart(self):$/;"	kind:member	line:80
+onStart	../qterm.py	/^    def onStart(self):$/;"	kind:member	line:29
+onStartFail	../mysocketserver.py	/^    def onStartFail(self, e):$/;"	kind:member	line:77
+onStartFail	../qterm.py	/^    def onStartFail(self, e):$/;"	kind:member	line:26
+onStartupComplete	../plugins/sampleslots.py	/^def onStartupComplete(bot):$/;"	kind:function	line:38
+onStop	../mysocketserver.py	/^    def onStop(self):$/;"	kind:member	line:92
+onTermCommand	../termbot.py	/^    def onTermCommand(bot, command):$/;"	kind:member	line:11
+onUnplug	../plugins/miniirc.py	/^def onUnplug(bot):$/;"	kind:function	line:23
+onUnplug	../plugins/sampleslots.py	/^def onUnplug(bot):$/;"	kind:function	line:55
+onUnplug	../plugins/schedrestart.py	/^def onUnplug(bot):$/;"	kind:function	line:25
+onUpdate	../plugins/sampleslots.py	/^def onUpdate(bot, tinfo):$/;"	kind:function	line:43
+onUpdate	../qcontactdb/qcontactdb.py	/^                from qqbot import _bot; _bot.onUpdate(tinfo)$/;"	kind:namespace	line:42
+op	../plugins/miniirc.py	/^import sys, os.path as op$/;"	kind:namespace	line:5
+op	../qcontactdb/display.py	/^import sys, os.path as op$/;"	kind:namespace	line:3
+op	../qcontactdb/fetch.py	/^import sys, os.path as op$/;"	kind:namespace	line:3
+op	../qcontactdb/qcontactdb.py	/^import sys, os.path as op$/;"	kind:namespace	line:3
+os	../__main__.py	/^import sys, os$/;"	kind:namespace	line:1
+os	../basicqsession.py	/^import sys, os$/;"	kind:namespace	line:3
+os	../common.py	/^import json, subprocess, threading, sys, platform, os$/;"	kind:namespace	line:3
+os	../common.py	/^import os$/;"	kind:namespace	line:251
+os	../groupmanager.py	/^import sys, os$/;"	kind:namespace	line:9
+os	../mailagent.py	/^import sys, os$/;"	kind:namespace	line:3
+os	../mainloop.py	/^import sys, os$/;"	kind:namespace	line:3
+os	../mysocketserver.py	/^import sys, os$/;"	kind:namespace	line:3
+os	../plugins/miniirc.py	/^import sys, os.path as op$/;"	kind:namespace	line:5
+os	../qconf.py	/^import os, sys, ast, argparse, platform, time, pkgutil$/;"	kind:namespace	line:196
+os	../qconf.py	/^import sys, os$/;"	kind:namespace	line:3
+os	../qcontactdb/display.py	/^import sys, os.path as op$/;"	kind:namespace	line:3
+os	../qcontactdb/fetch.py	/^import collections, os$/;"	kind:namespace	line:15
+os	../qcontactdb/fetch.py	/^import sys, os.path as op$/;"	kind:namespace	line:3
+os	../qcontactdb/getgroupqq.py	/^import sqlite3, sys, os$/;"	kind:namespace	line:6
+os	../qcontactdb/qcontactdb.py	/^import sys, os.path as op$/;"	kind:namespace	line:3
+os	../qqbotcls.py	/^import sys, os$/;"	kind:namespace	line:10
+os	../qrcodemanager.py	/^import os, platform, uuid, subprocess, time$/;"	kind:namespace	line:8
+os	../qrcodemanager.py	/^import sys, os$/;"	kind:namespace	line:3
+os	../qrcodeserver.py	/^import sys, os$/;"	kind:namespace	line:5
+os	../qsession.py	/^import sys, os$/;"	kind:namespace	line:3
+os	../qterm.py	/^import sys, os$/;"	kind:namespace	line:3
+os	../utf8logger.py	/^import sys, os$/;"	kind:namespace	line:3
+out	../qcontactdb/getgroupqq.py	/^        out = out.encode('utf8')$/;"	kind:variable	line:29
+out	../qcontactdb/getgroupqq.py	/^    out = comment + '\\n'.join(','.join(g) for g in groups)$/;"	kind:variable	line:26
+outfile	../qcontactdb/getgroupqq.py	/^    outfile = os.path.join(os.path.dirname(dbname), 'groupqq')$/;"	kind:variable	line:17
+p	../__main__.py	/^p = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:2
+p	../basicqsession.py	/^p = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:4
+p	../facemap.py	/^        p = p + '\/' + face + '|'$/;"	kind:variable	line:56
+p	../facemap.py	/^p = p[:-1] + ')'$/;"	kind:variable	line:57
+p	../groupmanager.py	/^p = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:10
+p	../mailagent.py	/^p = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:4
+p	../mainloop.py	/^p = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:4
+p	../mysocketserver.py	/^p = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:4
+p	../plugins/miniirc.py	/^p = op.dirname(op.dirname(op.dirname(op.abspath(__file__))))$/;"	kind:variable	line:6
+p	../qconf.py	/^p = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:4
+p	../qcontactdb/display.py	/^p = op.dirname(op.dirname(op.dirname(op.abspath(__file__))))$/;"	kind:variable	line:4
+p	../qcontactdb/fetch.py	/^p = op.dirname(op.dirname(op.dirname(op.abspath(__file__))))$/;"	kind:variable	line:4
+p	../qcontactdb/qcontactdb.py	/^p = op.dirname(op.dirname(op.dirname(op.abspath(__file__))))$/;"	kind:variable	line:4
+p	../qqbotcls.py	/^p = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:11
+p	../qrcodemanager.py	/^p = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:4
+p	../qrcodeserver.py	/^p = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:6
+p	../qsession.py	/^p = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:4
+p	../qterm.py	/^p = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:4
+p	../utf8logger.py	/^p = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:4
+parse	../common.py	/^    import urllib.parse$/;"	kind:namespace	line:208
+parseLines	../plugins/miniirc.py	/^    def parseLines(self, lines):$/;"	kind:member	line:75
+parseaddr	../mailagent.py	/^from email.utils import parseaddr, formataddr$/;"	kind:namespace	line:14
+parser	../common.py	/^    import html.parser; htmlUnescape = html.parser.HTMLParser().unescape$/;"	kind:namespace	line:184
+part	../plugins/miniirc.py	/^    def part(self, channel, tail='x'):$/;"	kind:member	line:212
+passwordlogin.py	../plugins/passwordlogin.py	1;"	kind:file	line:1
+pat	../facemap.py	/^pat = re.compile(p)$/;"	kind:variable	line:58
+pickle	../basicqsession.py	/^import random, pickle, time, requests$/;"	kind:namespace	line:8
+pickle	../qsession.py	/^import pickle$/;"	kind:namespace	line:8
+pkgutil	../qconf.py	/^import os, sys, ast, argparse, platform, time, pkgutil$/;"	kind:namespace	line:196
+platform	../common.py	/^import json, subprocess, threading, sys, platform, os$/;"	kind:namespace	line:3
+platform	../qconf.py	/^import os, sys, ast, argparse, platform, time, pkgutil$/;"	kind:namespace	line:196
+platform	../qrcodemanager.py	/^import os, platform, uuid, subprocess, time$/;"	kind:namespace	line:8
+pollForever	../qqbotcls.py	/^    def pollForever(self):$/;"	kind:member	line:167
+prepareSession	../basicqsession.py	/^    def prepareSession(self):$/;"	kind:member	line:40
+progname	../qconf.py	/^    progname = sys.argv[0]$/;"	kind:variable	line:121
+progname	../qconf.py	/^    progname= sys.executable + ' ' + sys.argv[0]$/;"	kind:variable	line:119
+pt	../qcontactdb/myprettytable.py	/^    pt = PrettyTable(['city', 'name'])$/;"	kind:variable	line:131
+putTo	../mainloop.py	/^    def putTo(self, queueLabel, func, args, kwargs):$/;"	kind:member	line:47
+q	../qconf.py	/^            import qqbotdefault as q$/;"	kind:namespace	line:410
+qHash	../basicqsession.py	/^def qHash(x, K):$/;"	kind:function	line:411
+qHash	../plugins/passwordlogin.py	/^from qqbot.basicqsession import BasicQSession, qHash, bknHash$/;"	kind:namespace	line:54
+qconf.py	../qconf.py	1;"	kind:file	line:1
+qcontactdb.py	../qcontactdb/qcontactdb.py	1;"	kind:file	line:1
+qqbot	../plugins/passwordlogin.py	/^    import qqbot.qsession$/;"	kind:namespace	line:145
+qqbotcls.py	../qqbotcls.py	1;"	kind:file	line:1
+qqbotsched	../__init__.py	/^qqbotsched = QQBotSched$/;"	kind:variable	line:10
+qqbotsched	../plugins/schedrestart.py	/^from qqbot import QQBotSched as qqbotsched$/;"	kind:namespace	line:9
+qqbotslot	../__init__.py	/^qqbotslot = QQBotSlot$/;"	kind:variable	line:9
+qrcode	../qrcodemanager.py	/^        qrcode = f.read()$/;"	kind:variable	line:239
+qrcodemanager.py	../qrcodemanager.py	1;"	kind:file	line:1
+qrcodeserver.py	../qrcodeserver.py	1;"	kind:file	line:1
+qrm	../qrcodemanager.py	/^    qrm = QrcodeManager(conf)$/;"	kind:variable	line:237
+qsession	../plugins/passwordlogin.py	/^    import qqbot.qsession$/;"	kind:namespace	line:145
+qsession.py	../qsession.py	1;"	kind:file	line:1
+qterm.py	../qterm.py	1;"	kind:file	line:1
+rName	../qcontactdb/contactdb.py	/^def rName(tinfo):$/;"	kind:function	line:90
+rName	../qcontactdb/display.py	/^from qqbot.qcontactdb.contactdb import rName$/;"	kind:namespace	line:8
+rName	../qcontactdb/fetch.py	/^from qqbot.qcontactdb.contactdb import rName, tType$/;"	kind:namespace	line:8
+random	../basicqsession.py	/^import random, pickle, time, requests$/;"	kind:namespace	line:8
+re	../facemap.py	/^import re, sys$/;"	kind:namespace	line:13
+re	../plugins/miniirc.py	/^import re, time, socket$/;"	kind:namespace	line:10
+re	../qcontactdb/qcontactdb.py	/^import collections, time, re$/;"	kind:namespace	line:14
+readCmdLine	../qconf.py	/^    def readCmdLine(self, argv):$/;"	kind:member	line:212
+readConfFile	../qconf.py	/^    def readConfFile(self):$/;"	kind:member	line:310
+recvLoop	../plugins/miniirc.py	/^    def recvLoop(self):$/;"	kind:member	line:51
+removeSpecial	../plugins/miniirc.py	/^def removeSpecial(s):$/;"	kind:function	line:293
+requests	../basicqsession.py	/^import random, pickle, time, requests$/;"	kind:namespace	line:8
+requests	../plugins/passwordlogin.py	/^import requests, time$/;"	kind:namespace	line:52
+response	../mysocketserver.py	/^    def response(self, data):$/;"	kind:member	line:95
+response	../qrcodeserver.py	/^    def response(self, request):$/;"	kind:member	line:20
+rootConf	../qconf.py	/^rootConf = {$/;"	kind:variable	line:101
+runBot	../qqbotcls.py	/^def runBot(argv):$/;"	kind:function	line:40
+sample.py	../plugins/sample.py	1;"	kind:file	line:1
+sampleslots.py	../plugins/sampleslots.py	1;"	kind:file	line:1
+schedRestart	../plugins/schedrestart.py	/^    def schedRestart(_bot):$/;"	kind:function	line:20
+schedrestart.py	../plugins/schedrestart.py	1;"	kind:file	line:1
+select	../qcontactdb/contactdb.py	/^    def select(self, tname, column, value, like=False):$/;"	kind:member	line:187
+selectAll	../qcontactdb/contactdb.py	/^    def selectAll(self, tname):$/;"	kind:member	line:196
+self	../qcontactdb/fetch.py	/^    self = BasicQSession()$/;"	kind:variable	line:314
+self	../qsession.py	/^    self = session$/;"	kind:variable	line:70
+send	../basicqsession.py	/^    def send(self, ctype, uin, content, epCodes=[0]):$/;"	kind:member	line:235
+send	../mailagent.py	/^    def send(self, to_addr, html='', subject='', to_name='', png_content=''):$/;"	kind:member	line:98
+send	../plugins/miniirc.py	/^    def send(self, prefix, command, params, tail):        $/;"	kind:member	line:270
+sendEmail	../qrcodemanager.py	/^    def sendEmail(self):$/;"	kind:member	line:106
+setVal	../common.py	/^    def setVal(self, val):$/;"	kind:member	line:103
+showCmdQRCode	../qrcodemanager.py	/^def showCmdQRCode(filename):$/;"	kind:function	line:167
+showImage	../qrcodemanager.py	/^def showImage(filename):$/;"	kind:function	line:151
+smartRequest	../basicqsession.py	/^    def smartRequest(self, url, data=None, Referer=None, Origin=None,$/;"	kind:member	line:339
+smtplib	../mailagent.py	/^import smtplib$/;"	kind:namespace	line:8
+socket	../mysocketserver.py	/^import socket$/;"	kind:namespace	line:11
+socket	../plugins/miniirc.py	/^import re, time, socket$/;"	kind:namespace	line:10
+specials	../plugins/miniirc.py	/^specials = re.compile(r'[!$#: ]')$/;"	kind:variable	line:291
+sqlite3	../qcontactdb/contactdb.py	/^import sqlite3, traceback$/;"	kind:namespace	line:3
+sqlite3	../qcontactdb/getgroupqq.py	/^import sqlite3, sys, os$/;"	kind:namespace	line:6
+strOfList	../qcontactdb/display.py	/^    def strOfList(self, tinfo, cinfo=None):$/;"	kind:member	line:41
+subprocess	../common.py	/^import json, subprocess, threading, sys, platform, os$/;"	kind:namespace	line:3
+subprocess	../qqbotcls.py	/^import sys, subprocess, time$/;"	kind:namespace	line:15
+subprocess	../qrcodemanager.py	/^import os, platform, uuid, subprocess, time$/;"	kind:namespace	line:8
+sys	../__main__.py	/^import sys, os$/;"	kind:namespace	line:1
+sys	../basicqsession.py	/^import sys, os$/;"	kind:namespace	line:3
+sys	../common.py	/^import json, subprocess, threading, sys, platform, os$/;"	kind:namespace	line:3
+sys	../facemap.py	/^import re, sys$/;"	kind:namespace	line:13
+sys	../groupmanager.py	/^import sys, os$/;"	kind:namespace	line:9
+sys	../mailagent.py	/^import sys, os$/;"	kind:namespace	line:3
+sys	../mainloop.py	/^import sys, os$/;"	kind:namespace	line:3
+sys	../mysocketserver.py	/^    import sys    $/;"	kind:namespace	line:116
+sys	../mysocketserver.py	/^import sys, os$/;"	kind:namespace	line:3
+sys	../plugins/miniirc.py	/^import sys, os.path as op$/;"	kind:namespace	line:5
+sys	../qconf.py	/^import os, sys, ast, argparse, platform, time, pkgutil$/;"	kind:namespace	line:196
+sys	../qconf.py	/^import sys, os$/;"	kind:namespace	line:3
+sys	../qcontactdb/display.py	/^import sys, os.path as op$/;"	kind:namespace	line:3
+sys	../qcontactdb/fetch.py	/^import sys, os.path as op$/;"	kind:namespace	line:3
+sys	../qcontactdb/getgroupqq.py	/^import sqlite3, sys, os$/;"	kind:namespace	line:6
+sys	../qcontactdb/myprettytable.py	/^import sys; PY3 = (sys.version_info[0]==3)$/;"	kind:namespace	line:3
+sys	../qcontactdb/qcontactdb.py	/^import sys, os.path as op$/;"	kind:namespace	line:3
+sys	../qqbotcls.py	/^import sys, os$/;"	kind:namespace	line:10
+sys	../qqbotcls.py	/^import sys, subprocess, time$/;"	kind:namespace	line:15
+sys	../qrcodemanager.py	/^import sys, os$/;"	kind:namespace	line:3
+sys	../qrcodeserver.py	/^import sys, os$/;"	kind:namespace	line:5
+sys	../qsession.py	/^import sys, os$/;"	kind:namespace	line:3
+sys	../qterm.py	/^import sys, os$/;"	kind:namespace	line:3
+sys	../utf8logger.py	/^import sys, logging$/;"	kind:namespace	line:8
+sys	../utf8logger.py	/^import sys, os$/;"	kind:namespace	line:3
+sysRegex	../qcontactdb/qcontactdb.py	/^    sysRegex = re.compile('^(' + ')|('.join([$/;"	kind:variable	line:56
+tMaker	../qcontactdb/contactdb.py	/^def tMaker(tinfo):$/;"	kind:function	line:102
+tName	../qcontactdb/contactdb.py	/^def tName(tinfo):$/;"	kind:function	line:83
+tType	../qcontactdb/contactdb.py	/^def tType(tinfo):$/;"	kind:function	line:96
+tType	../qcontactdb/fetch.py	/^from qqbot.qcontactdb.contactdb import rName, tType$/;"	kind:namespace	line:8
+termbot.py	../termbot.py	1;"	kind:file	line:1
+test	../utf8logger.py	/^def test():$/;"	kind:function	line:103
+threading	../common.py	/^import json, subprocess, threading, sys, platform, os$/;"	kind:namespace	line:3
+time	../basicqsession.py	/^import random, pickle, time, requests$/;"	kind:namespace	line:8
+time	../plugins/miniirc.py	/^import re, time, socket$/;"	kind:namespace	line:10
+time	../plugins/passwordlogin.py	/^import requests, time$/;"	kind:namespace	line:52
+time	../qconf.py	/^import os, sys, ast, argparse, platform, time, pkgutil$/;"	kind:namespace	line:196
+time	../qcontactdb/qcontactdb.py	/^import collections, time, re$/;"	kind:namespace	line:14
+time	../qqbotcls.py	/^import sys, subprocess, time$/;"	kind:namespace	line:15
+time	../qrcodemanager.py	/^import os, platform, uuid, subprocess, time$/;"	kind:namespace	line:8
+tinfo	../qcontactdb/qcontactdb.py	/^                from qqbot import _bot; _bot.onUpdate(tinfo)$/;"	kind:namespace	line:42
+traceback	../mainloop.py	/^import traceback$/;"	kind:namespace	line:8
+traceback	../qcontactdb/contactdb.py	/^import sqlite3, traceback$/;"	kind:namespace	line:3
+unescape	../common.py	/^    import HTMLParser; htmlUnescape = HTMLParser.HTMLParser().unescape$/;"	kind:namespace	line:180
+unescape	../common.py	/^    import html.parser; htmlUnescape = html.parser.HTMLParser().unescape$/;"	kind:namespace	line:184
+unplug	../qqbotcls.py	/^    def unplug(self, moduleName, removeJob=True):$/;"	kind:member	line:264
+urlGet	../basicqsession.py	/^    def urlGet(self, url, data=None, Referer=None, Origin=None):$/;"	kind:member	line:310
+urllib	../common.py	/^    import urllib$/;"	kind:namespace	line:205
+urllib	../common.py	/^    import urllib.parse$/;"	kind:namespace	line:208
+urllib3	../basicqsession.py	/^            import urllib3    $/;"	kind:namespace	line:22
+utf8Logger	../utf8logger.py	/^utf8Logger = Utf8Logger('Utf8Logger')$/;"	kind:variable	line:73
+utf8Stdout	../utf8logger.py	/^    utf8Stdout = CodingWrappedWriter('utf8', sys.stdout)$/;"	kind:variable	line:36
+utf8logger.py	../utf8logger.py	1;"	kind:file	line:1
+uuid	../qrcodemanager.py	/^import os, platform, uuid, subprocess, time$/;"	kind:namespace	line:8
+version	../__init__.py	/^from .qconf import version$/;"	kind:namespace	line:7
+version	../plugins/miniirc.py	/^version = '1.0.1'$/;"	kind:variable	line:3
+version	../qconf.py	/^version = 'v2.3.7'$/;"	kind:variable	line:8
+version_info	../qcontactdb/myprettytable.py	/^import sys; PY3 = (sys.version_info[0]==3)$/;"	kind:namespace	line:3
+waitForAuth	../basicqsession.py	/^    def waitForAuth(self, conf):$/;"	kind:member	line:82
+waitNick	../plugins/miniirc.py	/^    def waitNick(self, command, params, tail):$/;"	kind:member	line:100
+waitUser	../plugins/miniirc.py	/^    def waitUser(self, command, params, tail):$/;"	kind:member	line:113
+wcwidth	../qconf.py	/^                import wcwidth$/;"	kind:namespace	line:383
+wcwidth	../qrcodemanager.py	/^                import wcwidth$/;"	kind:namespace	line:68
+wcwidth	../qrcodemanager.py	/^    import wcwidth$/;"	kind:namespace	line:169
+webdriver	../plugins/passwordlogin.py	/^from selenium import webdriver$/;"	kind:namespace	line:48
+workAt	../mainloop.py	/^def workAt(taskQueue):$/;"	kind:function	line:12
+wrap	../qqbotcls.py	/^    def wrap(self, slots):$/;"	kind:member	line:245
+wrapper	../qqbotcls.py	/^        def wrapper(func):$/;"	kind:function	line:256
+write	../utf8logger.py	/^    def write(self, s):$/;"	kind:member	line:29
