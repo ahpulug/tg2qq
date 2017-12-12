@@ -14,7 +14,7 @@ class Bot_thread(threading.Thread):
         self.thread_func = thread_func
 
     def run(self):
-        INFO(self.thread_func.__name__ + "running")
+        INFO(self.thread_func.__name__ + " running...")
         subthread = threading.Thread(target=self.thread_func)
         subthread.start()
         subthread.join()
@@ -26,7 +26,7 @@ class Bot_thread(threading.Thread):
 
 
 def tg_bot_run():
-    tgbot.run()
+    tgbot.Main()
 
 def qq_bot_run():
     qqbot.Main()

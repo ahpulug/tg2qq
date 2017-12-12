@@ -152,7 +152,6 @@ def get_message_type(message={}):
 def run():
     '''run'''
     updater.start_polling()
-    return 0
 
 
 
