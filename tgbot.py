@@ -1,19 +1,24 @@
 #!/usr/bin/env python3
-'''telegram bot'''
+'''telegram bot update'''
 
-import logging
+import sys
 import telegram
 from telegram.ext import CommandHandler
 from telegram.ext import Updater
 from telegram.ext import MessageHandler
 from telegram.ext import filters
 
+from qqbot.utf8logger import CRITICAL, ERROR, WARN, INFO, DEBUG
+
+'''
+logging.basicConfig(
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    datefmt = '%Y-%m-%d %H:%M:%S',
+    level=logging.INFO)
+'''
 
 updater = Updater(token="505212073:AAFNhHh4BNCeUUa5GKKZkjpsxr2VJMqbofw")
-
 dispatcher = updater.dispatcher
-logging.basicConfig(
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)
 
 
 chat_id_list = []
@@ -39,38 +44,45 @@ def _add_handler(handler, filters=None, cmd=None, **kwargs):
 @_add_handler(CommandHandler, 'start')
 def start(bot, update):
     bot.sendMessage(chat_id=update.message.chat_id,
-                    text="I'm a bot, please talk to me!")
-    logging.info("recive command `/start` @%s" %
+                    text="bot has started")
+    INFO("recive command `/start` @%s" %
                  (update.message.from_user.username))
 
+@_add_handler(CommandHandler, 'stop')
+def top(bot,update):
+    INFO("recive command `/start` @%s" %
+                 (update.message.from_user.username))
+    INFO("Bot has stoped")
+    bot.sendMessage(chat_id=update.message.chat_id,
+                    text="bot will be stoped")
+    sys.exit(0)
 
 @_add_handler(CommandHandler, 'hello')
 def hello(bot, update):
     bot.sendMessage(chat_id=update.message.chat_id, text="Hello World")
-    logging.info("recive command `/hello` @%s" %
+    INFO("recive command `/hello` @%s" %
                  (update.message.from_user.username))
 
 
 @_add_handler(CommandHandler, "tg2qq")
 def tg_2_qq(bot, update):
-    logging.info("recive command `/tg2qq` @%s" %
+    INFO("recive command `/tg2qq` @%s" %
                  (update.message.from_user.username))
-
 
     chat_id = update.message.chat.id
     if update.message.chat.id not in chat_id_list:
         chat_id_list.append(chat_id)
-        logging.info("add chat id :%s" % (chat_id))
-        logging.info("now the chat_list :%s " % (chat_id_list))
+        INFO("add chat id :%s" % (chat_id))
+        INFO("now the chat_list :%s " % (chat_id_list))
         bot.sendMessage(chat_id=update.message.chat_id,
                         text="this id %s has added" % (chat_id))
     else:
-        logging.warn("this id %s is already in list" % (chat_id))
+        WARN("this id %s is already in list" % (chat_id))
         bot.sendMessage(chat_id=update.message.chat_id,
                         text="this id %s is already in list" % (chat_id))
 
 
-#@_add_handler(CommandHandler,)
+
 @_add_handler(MessageHandler, filters.Filters.all)
 def recive_all_message(bot, update):
     """pass"""
@@ -81,17 +93,17 @@ def recive_all_message(bot, update):
 
     if message_type == "new_menber":
         if message.new_chat_members[0]["id"] == bot.id:
-            logging.info("bot joined group \"%s\"" % (message.chat.title))
+            INFO("bot joined group \"%s\"" % (message.chat.title))
             return
 
     if message.chat_id not in chat_id_list:
-        logging.warn("A message not from chat queue:user id %s,username %s :%s" %
+        WARN("A message not from chat queue:user id %s,username %s :%s" %
                      (message.from_user.id, message.from_user.username, message.text))
         return
 
     if message_type == "leave":
         if message.left_chat_member.id == bot.id:
-            logging.info("bot left group \"%s\"" % (message.chat.title))
+            INFO("bot left group \"%s\"" % (message.chat.title))
             return
 
     full_name = ""
@@ -101,12 +113,12 @@ def recive_all_message(bot, update):
         full_name += message.from_user.last_name
 
     if message_type == "text":
-        logging.info("@chat_id %s :a text message from %s :%s" %
+        INFO("@chat_id %s :a text message from %s :%s" %
                      (message.chat.id, full_name, update.message.text))
         # do something
 
     else:
-        logging.info("@chat_id %s :a %s message from %s" %
+        INFO("@chat_id %s :a %s message from %s" %
                      (message.chat.id, message_type, full_name))
 
 
@@ -117,11 +129,6 @@ def get_message_type(message={}):
 
     type: text,stickers,photo,voice,video,document"""
 
-    ''''entities': [],
-     'caption_entities': [],
-      'photo': [],
-      'sticker': [] '''
-    # print(message)
     if message["text"]:
         return "text"
     elif message["sticker"]:
@@ -139,11 +146,20 @@ def get_message_type(message={}):
     elif message["new_chat_members"]:
         return "new_menber"
     else:
-        logging.warn("a nrecognized message type :%s" % (message))
+        WARN("a nrecognized message type :%s" % (message))
 
 
-try:
+def run():
+    '''run'''
     updater.start_polling()
-except telegram.error.TimedOut:
-    print("timeout")
-    pass
+    return 0
+
+
+
+
+if __name__ == "__main__":
+    try:
+        run()
+    except telegram.error.TimedOut:
+        print("timeout")
+
