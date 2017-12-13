@@ -9,7 +9,7 @@ from telegram.ext import MessageHandler
 from telegram.ext import filters
 
 from qqbot.utf8logger import CRITICAL, ERROR, WARN, INFO, DEBUG
-
+from bridge import main_bridge
 '''
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
@@ -72,6 +72,10 @@ def tg_2_qq(bot, update):
     chat_id = update.message.chat.id
     if update.message.chat.id not in chat_id_list:
         chat_id_list.append(chat_id)
+
+        main_bridge.add_tg(bot)
+        main_bridge.add_tg_chat_id(chat_id)
+
         INFO("add chat id :%s" % (chat_id))
         INFO("now the chat_list :%s " % (chat_id_list))
         bot.sendMessage(chat_id=update.message.chat_id,
@@ -80,6 +84,8 @@ def tg_2_qq(bot, update):
         WARN("this id %s is already in list" % (chat_id))
         bot.sendMessage(chat_id=update.message.chat_id,
                         text="this id %s is already in list" % (chat_id))
+    
+
 
 
 
@@ -120,6 +126,9 @@ def recive_all_message(bot, update):
     else:
         INFO("@chat_id %s :a %s message from %s" %
                      (message.chat.id, message_type, full_name))
+        message.text = "[" + get_message_type(message) + "]"
+
+    main_bridge.send_to_qq(full_name,message.text)
 
 
 def get_message_type(message={}):

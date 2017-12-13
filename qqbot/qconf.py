@@ -30,22 +30,22 @@ sampleConfStr = '''
         "httpServerPort" : 8189,
         
         # 自动登录的 QQ 号
-        "qq" : "3497303033",
+        "qq" : "1062614091",
         
         # 接收二维码图片的邮箱账号
-        "mailAccount" : "3497303033@qq.com",
+        "mailAccount" : "1092914091@qq.com",
         
         # 该邮箱的 IMAP/SMTP 服务授权码
         "mailAuthCode" : "feregfgftrasdsew",
         
         # 是否以文本模式显示二维码
-        "cmdQrcode" : False,
+        "cmdQrcode" : True,
     
         # 显示/关闭调试信息
         "debug" : False,
 
         # QQBot 掉线后自动重启
-        "restartOnOffline" : False,
+        "restartOnOffline" : True,
         
         # 在后台运行 qqbot ( daemon 模式)
         "daemon": False,
@@ -86,7 +86,7 @@ sampleConfStr = '''
     #     "qq" : "",
     #     "mailAccount" : "",
     #     "mailAuthCode" : "",
-    #     "cmdQrcode" : False,
+    #     "cmdQrcode" : True,
     #     "debug" : False,
     #     "restartOnOffline" : False,
     #     "daemon" : False,
@@ -283,7 +283,7 @@ class QConf(object):
         delattr(opts, 'nodaemon')
         
         if not opts.bench:
-            opts.bench = os.path.join(os.path.expanduser('~'), '.qqbot-tmp')
+            opts.bench = os.path.join(os.path.expanduser('.'), '.qqbot-tmp')
         
         opts.bench = os.path.abspath(opts.bench)        
         opts.benchstr = SYSTEMSTR2STR(opts.bench)

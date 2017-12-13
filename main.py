@@ -1,9 +1,10 @@
 import os
 import threading
 import time
-
+from bridge import Bridge
 
 import qqbot
+from qqbot import _bot as qq_bot
 from qqbot.utf8logger import INFO
 import tgbot
 
@@ -20,13 +21,10 @@ class Bot_thread(threading.Thread):
         subthread.join()
 
 
-    
-
-
-
 
 def tg_bot_run():
     tgbot.Main()
+
 
 def qq_bot_run():
     qqbot.Main()
