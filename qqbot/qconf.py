@@ -66,7 +66,8 @@ sampleConfStr = '''
     
     # 可以在 默认配置 中配置所有用户都通用的设置
     "默认配置" : {
-        "qq" : "",
+        "restartOnOffline" : False,
+        "cmdQrcode" : True,
         "pluginPath" : "",
         "plugins" : [
             'qqbot.plugins.sampleslots',
