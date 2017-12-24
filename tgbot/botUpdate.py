@@ -8,8 +8,9 @@ from telegram.ext import Updater
 from telegram.ext import MessageHandler
 from telegram.ext import filters
 
-from qqbot.utf8logger import CRITICAL, ERROR, WARN, INFO, DEBUG
-from bridge import main_bridge
+
+
+#from bridge import main_bridge
 '''
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
@@ -73,8 +74,8 @@ def tg_2_qq(bot, update):
     if update.message.chat.id not in chat_id_list:
         chat_id_list.append(chat_id)
 
-        main_bridge.add_tg(bot)
-        main_bridge.add_tg_chat_id(chat_id)
+        tg2qq.main_bridge.add_tg(bot)
+        tg2qq.main_bridge.add_tg_chat_id(chat_id)
 
         INFO("add chat id :%s" % (chat_id))
         INFO("now the chat_list :%s " % (chat_id_list))

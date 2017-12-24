@@ -1,16 +1,18 @@
 import os
 import threading
 import time
-from bridge import Bridge
 
 import qqbot
-from qqbot import _bot as qq_bot
-from qqbot.utf8logger import INFO
 import tgbot
+from bridge import Bridge
+from qqbot import _bot as qq_bot
+from utf8logger import INFO
+
 
 class Bot_thread(threading.Thread):
     """I dont think it should be stop xd"""
-    def __init__(self,thread_func):
+
+    def __init__(self, thread_func):
         threading.Thread.__init__(self)
         self.thread_func = thread_func
 
@@ -21,14 +23,12 @@ class Bot_thread(threading.Thread):
         subthread.join()
 
 
-
 def tg_bot_run():
     tgbot.Main()
 
 
 def qq_bot_run():
     qqbot.Main()
-
 
 
 if __name__ == "__main__":
