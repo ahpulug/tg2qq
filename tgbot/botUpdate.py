@@ -10,14 +10,6 @@ from telegram.ext import filters
 
 
 
-#from bridge import main_bridge
-'''
-logging.basicConfig(
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    datefmt = '%Y-%m-%d %H:%M:%S',
-    level=logging.INFO)
-'''
-
 updater = Updater(token="505212073:AAFNhHh4BNCeUUa5GKKZkjpsxr2VJMqbofw")
 dispatcher = updater.dispatcher
 

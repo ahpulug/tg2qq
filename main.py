@@ -1,10 +1,8 @@
 import os
 import threading
-import time
 
 import qqbot
 import tgbot
-from bridge import Bridge
 from qqbot import _bot as qq_bot
 from utf8logger import INFO
 
