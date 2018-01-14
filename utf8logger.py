@@ -30,21 +30,8 @@ class CodingWrappedWriter(object):
         self._write(s)
         self.flush()
 
-if not PY3:
-    # utf8Stdout.write("中文") <==> 
-    # sys.stdout.write("中文".decode('utf8').encode(sys.stdout.encoding))
-    utf8Stdout = CodingWrappedWriter('utf8', sys.stdout)
-else:
-    # reference http://blog.csdn.net/jim7424994/article/details/22675759
-    import io
-    if hasattr(sys.stdout, 'buffer') and (not equalUtf8(sys.stdout.encoding)):
-        if sys.stdout.encoding in ('gbk', 'cp936'):
-            coding = 'gb18030'
-        else:
-            coding = 'utf-8'
-        utf8Stdout = io.TextIOWrapper(sys.stdout.buffer, encoding=coding)
-    else:
-        utf8Stdout = sys.stdout
+
+utf8Stdout = CodingWrappedWriter('utf8', sys.stdout)
 
 #class _utf8Stdout(object):
 #
@@ -86,16 +73,7 @@ _thisDict = globals()
 for name in ('CRITICAL', 'ERROR', 'WARN', 'INFO', 'DEBUG'):
     _thisDict[name] = getattr(utf8Logger, name.lower())
 
-if PY3:
-    RAWINPUT = input
-else:
-    def RAWINPUT(msg):
-        utf8Stdout.write(msg)
-        s = raw_input('').rstrip()
-        if not equalUtf8(sys.stdin.encoding):
-            s = s.decode(sys.stdin.encoding).encode('utf8')
-        return s        
-
+RAWINPUT = input
 def PRINT(s, end='\n'):
     utf8Stdout.write(s+end)
     utf8Stdout.flush()
